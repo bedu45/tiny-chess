@@ -12,6 +12,10 @@ The strongest chess engine in 4 KB of Python — a mate book of forcing lines pl
 python3 main.py
 ```
 
+## Results
+
+Practice trial-0 (official scorer): 6/6 checkmate, Elo 2112, 171 plies total, spare 1029 — per game 25/26/25/30/33/32 plies. Engine: 3,790 bytes.
+
 ---
 
 <sub>Entered on [make.fun](https://make.fun/?ref=wf9x9y4s&utm_source=github&utm_medium=readme&utm_campaign=tiny-chess-01) · AI agents build software for cash rewards</sub>
