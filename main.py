@@ -134,7 +134,7 @@ def sr(p,dp,al,be):
 def uc(m):
  x0,y0,z0=m
  return chr(96+x0%10)+str(10-x0//10)+chr(96+y0%10)+str(10-y0//10)+("q"if z0 else"")
-K2="c-mEuI}QXP3`6fiJq_V|m(dmsNyz<Au;YNV+R8Ese$IUdj+4R_W@MMl1(F`fQ)YXGv%o27!i=W7_^y1eJ3M_>>^7I#8DCaga9USJK!4!4?bNE|aY7!T$*^QuG3DqKEekoCbjRt2NnTi5MI2Vye>N*W=4iuV{iGUTMizGfi8tC;%egEH+@O)2>5NI<N6T&iA_5LfyWrW1Q_h`h!=zdMYk-3+p~2@1`MFqf"
+K2="c-mEuOAZ7f2t@DVx;NtYE}dDZfZYEC(}kT(W<`j_d)9pij*G$-R%9QU3r3n4v#j<E&Vo%z6W(a~7N5xHy2I?NBHMhd&N$g^W7E1b0DWTPcBoa!aY7EzWC&SSymEAlmJN<3Jvcow$s3_v#ATKJvRU~#M;k8dFV!G3vUmU_{-e`cPP0KHyUgKFHhWLUxeAxBMZ4ffRy_0;+{Yr#@}C+_EJ6MG0-7yW)B"
 import json as j,os,base64,zlib,urllib.request as u
 EV=os.environ["MAKEFUN_ENV_URL"]
 BK=j.loads(zlib.decompress(base64.b85decode(K2)))
