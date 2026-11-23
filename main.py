@@ -134,7 +134,7 @@ def sr(p,dp,al,be):
 def uc(m):
  x0,y0,z0=m
  return chr(96+x0%10)+str(10-x0//10)+chr(96+y0%10)+str(10-y0//10)+("q"if z0 else"")
-K2="c-l>nO|k?b2!rq9dN%&FdY7(VJO$+bCm0iZs@^IUh48_B2Z=L<Pnc0CMJ`Alka5knMT){%vW&kp>EbSVK6e;>R@64i?1Gln7M#^p5YPvlw3AvbF-{W$Br3ed6}NbDOtHLBtA|IEL;Ny?TU#A7;1IBjIIJsa4~SG_XXBrCwn%5{?&Jy=M|pOx-nT>Cj0R{cZ!Hg_Nl`0llI|c|)<b6?m-s?*^_l<9eZ2AcrSr?nzr!>hMjIbTosd<?Bb|?4evmOd&lhJiXD|"
+K2="c-l3Pxe>)M2t<2P>_q77#pA#hSN|1!v+|F2R-gyVc_z+_(venXNaYq%o{*=l@d{T7r=%rnwBYjFavf)S=IYTqAZv1bv0>q~TMfW`!tvPDt^}MA09rhnylPZAV~REljuzcG-NU3ZxKps$p2;0QWuPY0CT3bZT0>2n2i1!s<$N7*B-n4?K)#$=!rgRNYyggshj>G-MG$M!!SR9Wx0W{q`odeqOc}mU@rC{Glhbwm0BZhSZU"
 import json as j,os,base64,zlib,urllib.request as u
 EV=os.environ["MAKEFUN_ENV_URL"]
 BK=j.loads(zlib.decompress(base64.b85decode(K2)))
