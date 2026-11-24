@@ -14,7 +14,7 @@ python3 main.py
 
 ## Results
 
-Practice trial-0 (official scorer): 6/6 checkmate, Elo 2112, 145 plies total, spare 1055 — per game 25/26/19/26/23/26 plies. Engine: 3,849 bytes.
+Practice trial-0 (official scorer): 6/6 checkmate, Elo 2112, 143 plies total, spare 1057 — per game 23/26/19/26/23/26 plies. Engine: 3,847 bytes.
 
 ---
 
